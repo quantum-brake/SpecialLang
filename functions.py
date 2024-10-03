@@ -71,7 +71,7 @@ def get_input():
     elif num1_input.isalpha():
         raise TypeError("Необхідно ввести число")
     elif num1_input.isnumeric():
-        float(num1_input)
+        num1 = float(num1_input)
     else:
         raise ValueError("Необхідно ввести число")
 
@@ -85,7 +85,7 @@ def get_input():
                 elif num1_input.isalpha():
                     raise TypeError("Необхідно ввести число")
                 elif num2_input.isnumeric():
-                    float(num2_input)
+                    num2 = float(num2_input)
                 else:
                     raise ValueError("Необхідно ввести число")
                 break  
