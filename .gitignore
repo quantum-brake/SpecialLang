@@ -1,1 +1,15 @@
+# ignoring mac folder view
 .DS_Store
+
+# ignoring python related stuff
+.venv
+__pycache__/
+*.py[cod]
+
+# ignoring generated files
+*history.txt
+Data/*
+*.log
+# same with coverage
+.coverage
+coverage_html_report
