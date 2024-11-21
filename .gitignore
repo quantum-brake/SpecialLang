@@ -2,7 +2,7 @@
 .DS_Store
 
 # ignoring python related stuff
-.venv
+venv
 __pycache__/
 *.py[cod]
 

@@ -13,6 +13,11 @@ class DataVisualizer(ABC):
             cls._instance.data = None
         return cls._instance
 
+    def display_data(self):
+        self.load_data()
+        self.explore_data()
+        self.visualize()
+
     def load_data(self):
         if self.file_path:
             self.data = pd.read_csv(self.file_path)
